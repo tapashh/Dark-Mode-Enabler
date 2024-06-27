@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dark Mode Enabler</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      width: 250px;
+      padding: 20px;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    #enableDarkMode {
+      background-color: #444;
+      color: #bb86fc;
+    }
+    #enableDarkMode:hover {
+      background-color: #bb86fc;
+      color: #fff;
+    }
+    #disableDarkMode {
+      background-color: #444;
+      color: #ff6f61;
+    }
+    #disableDarkMode:hover {
+      background-color: #ff6f61;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <h2>Dark Mode Enabler</h2>
+  <button id="enableDarkMode">Enable Dark Mode</button>
+  <button id="disableDarkMode">Disable Dark Mode</button>
+  <script src="popup.js"></script>
+</body>
+</html>
